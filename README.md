@@ -12,25 +12,25 @@ This system can enable us to provide support for better mental health.Offers hel
 
 The purpose of an online counselling system is as follows:
 
--> People tend to keep a low profile when they are going through a difficult phase. In this scenario, counselling is immensely important, not only to share your feelings but also to get professional advice on how to deal with all the issues being faced.
+~ People tend to keep a low profile when they are going through a difficult phase. In this scenario, counselling is immensely important, not only to share your feelings but also to get professional advice on how to deal with all the issues being faced.
 
--> Online counselling is more flexible than in-person sessions, and it also provides immediate attention in an emergency. 
+~ Online counselling is more flexible than in-person sessions, and it also provides immediate attention in an emergency. 
 
--> Online counselling is cost-efficient, saves travel time, and is more convenient and accessible. 
+~ Online counselling is cost-efficient, saves travel time, and is more convenient and accessible. 
 
--> Online sessions can streamline the appointment process and can also help with rescheduling and other services. The sessions can be conducted in a convenient way, so people don’t have to change their routines for in-person sessions. 
+~ Online sessions can streamline the appointment process and can also help with rescheduling and other services. The sessions can be conducted in a convenient way, so people don’t have to change their routines for in-person sessions. 
 
--> Privacy and anonymity can be easily maintained in online sessions. People are not yet very comfortable sharing that they are getting help for their mental health, so this system helps in such a scenario.
+~ Privacy and anonymity can be easily maintained in online sessions. People are not yet very comfortable sharing that they are getting help for their mental health, so this system helps in such a scenario.
 
 **BUSINESS PROBLEM:**
 
--> The business problem of a Remote Counseling Management System is to develop a database system that schedules appointments for patients virtually. The system needs to manage different aspects of online counseling, including appointment booking, appointment history, billing, patient medication. To accomplish this, the system requires a database that can store and organize all relevant data and allow easy access to it when needed. 
+~ The business problem of a Remote Counseling Management System is to develop a database system that schedules appointments for patients virtually. The system needs to manage different aspects of online counseling, including appointment booking, appointment history, billing, patient medication. To accomplish this, the system requires a database that can store and organize all relevant data and allow easy access to it when needed. 
 
--> Our primary requirement is to provide patients with a platform where they can virtually connect with a therapist and get professional help based on their medical history. There will be Therapist and Patient entities. After every appointment and reschedule, the patient will be notified through SMS. All sessions and appointments will be tracked and the information will be stored for future references. Payment and billing will be separately recorded. There will be a medical history field to keep track of who has referred the patient, previous medical condition, current medications.
+~ Our primary requirement is to provide patients with a platform where they can virtually connect with a therapist and get professional help based on their medical history. There will be Therapist and Patient entities. After every appointment and reschedule, the patient will be notified through SMS. All sessions and appointments will be tracked and the information will be stored for future references. Payment and billing will be separately recorded. There will be a medical history field to keep track of who has referred the patient, previous medical condition, current medications.
 
 -> Patients are divided into different categories based on parameters like: Age, Profession (Employee, Student) and along with patient medical history details. Based on the primary issue the patient is having, a therapist is assigned to the patient. A Communication is sent by or to the Patient and Therapist for updates like reschedule or cancellation of appointment. The system will check for the availability of the therapist. This needs to have a relationship between Slot Availability and Session details.
 
--> In summary, Virtual Counseling Management System must include the following entities: Patient, Therapist, Session, Appointment Details Note, Slot Availability, Treatment Plan, Progress, Medication, Billing, Feedback, Medical History. All these entities will be connected with one-one, one-many, many-one and many-many relationships. The main decision is to select suitable data types for all entities and relationships, determining the cardinality of each relationship with entities.
+~ In summary, Virtual Counseling Management System must include the following entities: Patient, Therapist, Session, Appointment Details Note, Slot Availability, Treatment Plan, Progress, Medication, Billing, Feedback, Medical History. All these entities will be connected with one-one, one-many, many-one and many-many relationships. The main decision is to select suitable data types for all entities and relationships, determining the cardinality of each relationship with entities.
 
 **LIST OF ENTITIES:**
 
