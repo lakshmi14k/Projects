@@ -1,12 +1,15 @@
 **REMOTE COUNSELLING MANAGEMENT SYSTEM**
 
 **OVERVIEW:**
+
 In the current rapid-paced society, mental well-being is something that is not valued as much as it should be. The hustle and bustle of modern life has contributed to a significant rise in mental health issues, which has in turn established the need for better mental health care and counselling systems. Mental trauma is a common issue faced by people, irrespective of their age, background, or position in society. Lately, the importance of mental well-being has been significantly recognized. Unaddressed mental trauma leads to severe depression and suicidal thoughts. Many people consider not going to therapy because they can’t face discussing their issues in person. In that case, a remote counselling system would be of huge help.
 
 **OBJECTIVES:**
+
 This system can enable us to provide support for better mental health.Offers help to cope up with anything and everything: Issues with family, education, mental trauma, work pressure, depression, etc.Helps keep self-confidence stable. Online sessions can help build positivity and confidence among people.Virtual counselling can help people in rehabilitation avoid relapsing.It helps save time and money, and it can help to maintain a record of each session.
 
 **PURPOSE:**
+
 The purpose of an online counselling system is as follows:
 
 -> People tend to keep a low profile when they are going through a difficult phase. In this scenario, counselling is immensely important, not only to share your feelings but also to get professional advice on how to deal with all the issues being faced.
@@ -31,27 +34,27 @@ The purpose of an online counselling system is as follows:
 
 **LIST OF ENTITIES:**
 
-Patient: This entity represents the Patient’s information such as ID, Name, Phone, Gender, DOB, and Address.
+**Patient:** This entity represents the Patient’s information such as ID, Name, Phone, Gender, DOB, and Address.
 
-Therapist: This Entity represents Therapist information including the attributes such as ID, Name, Phone, License Details and specialty.
+**Therapist:** This Entity represents Therapist information including the attributes such as ID, Name, Phone, License Details and specialty.
 
-Session: This entity will include the details regarding the appointment including the Date, Time, Duration, Session notes (Notes/Descriptions)
+**Session:** This entity will include the details regarding the appointment including the Date, Time, Duration, Session notes (Notes/Descriptions)
 
-Slot Availability: This entity will provide the confirmation regarding the availability, and details about slot date, time and slot ID. 
+**Slot Availability:** This entity will provide the confirmation regarding the availability, and details about slot date, time and slot ID. 
 
-Note: This entity provides details of when the not has been created and shows what pointers regarding the session has been added.
+**Note:** This entity provides details of when the not has been created and shows what pointers regarding the session has been added.
 
-Treatment Plan: This Entity represents the milestones, interventions and diagnosis achieved, uniquely identified by a Treatment ID.
+**Treatment Plan:** This Entity represents the milestones, interventions and diagnosis achieved, uniquely identified by a Treatment ID.
 
-Progress: This entity will provide details of contents that has been discussed in the session, along with attributes like Note ID, Date created and progress.
+**Progress:** This entity will provide details of contents that has been discussed in the session, along with attributes like Note ID, Date created and progress.
 
-Medication: This entity will provide details of medication prescribed, reason for prescription and dosage. It is uniquely identified by a Medication ID.
+**Medication:** This entity will provide details of medication prescribed, reason for prescription and dosage. It is uniquely identified by a Medication ID.
 
-Medical History: This entity will include the information of the previous appointment which includes information such Referred by, History, Medications, Emergency Contact, allergies etc. by considering the TherapistID and PatientID.
+**Medical History:** This entity will include the information of the previous appointment which includes information such Referred by, History, Medications, Emergency Contact, allergies etc. by considering the TherapistID and PatientID.
 
-Bill: This Entity includes the payment history which includes BillingID, TherapistID, PatientID along with the fees, Billing date, Fees and Payment Status.
+**Bill:** This Entity includes the payment history which includes BillingID, TherapistID, PatientID along with the fees, Billing date, Fees and Payment Status.
 
-Feedback: This entity comes after all the process is done which includes FeedbackID, Ratings and comments by referring PatientID and TherapistID.
+**Feedback:** This entity comes after all the process is done which includes FeedbackID, Ratings and comments by referring PatientID and TherapistID.
 
 **KEY DESIGN DECISIONS**
 
