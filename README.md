@@ -11,6 +11,7 @@ In the current rapid-paced society, mental well-being is something that is not v
 **COURSE INSTRUCTOR**
 
 Professor: Manuel Montrond
+
 University: Northeastern University
 
 **CONTRIBUTIONS**
